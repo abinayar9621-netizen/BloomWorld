@@ -1,0 +1,560 @@
+@media screen and (max-width:600px){
+#main-container{
+  width: 100%;
+  overflow-x: hidden;
+       }
+header{
+  flex-direction: column;
+  padding: 30px;
+}
+.header-box1 h1{
+    font-size: 30px;
+}
+.header-box2{
+    width: 100%;
+  
+}
+.header-box2 input{
+   font-size: 20px;
+   margin-bottom: 20px;
+  
+}
+.header-box3 a{
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+
+#image-quotes{
+     font-size: 25px;
+      top: 50%;
+}
+#image-quotes h1 span{
+    color: aqua;
+}
+#image-quotes .login{
+    width: 40%;
+   
+}
+#image-quotes .login p{
+     padding: 10px;
+    font-size: 30px;
+}
+
+#available-cag{
+    font-size: 30px;
+    text-align: center;
+}
+.list1 img{
+    width: 100px;
+    height: 100px;
+}
+.list1{
+    font-size: 40px;
+}
+
+#potpic{
+     width: 70%;
+      max-width: min-content;
+    flex-direction: column-reverse;
+    align-items:center;
+     height:auto;
+     margin: auto;
+    overflow: hidden;
+    
+}
+#potpic img{
+    width: 300px;  
+}
+#potpic p {
+    font-size:50px;
+    font-style: italic;
+}
+#potpic h2 {
+    font-size:30px;
+    
+}
+#potpic button {
+    width: 60%;
+    font-size: 20px;
+   margin-left: 20%;
+   border-radius: 20px;
+}
+
+#palnet-conatiner h1{
+    font-size: 30px;
+    padding-top: 80px;
+    text-align: center;
+}
+.palnet-List{    
+    grid-template-columns: repeat(1,1fr);
+    justify-self: center;
+}
+.palnet-button{
+     width: 200px;
+    height: 350px;
+}
+.palnet-button img{ 
+      width: 200px;
+    height: 200px;
+}
+.palnet-button p{
+    font-size: 30px;
+}
+.palnet-button button{
+    width:50%;
+    font-size: 20px;
+    padding: 10px;  
+}
+
+#Follow-site-head h1{
+    font-size: 50px;
+    margin:  10px;
+    padding: 30px;
+}
+#Follow-site-head #Follow-site-categ{
+    display: grid;
+   grid-template-columns: repeat(4,1fr);
+   gap: 40px;
+   
+}
+#Follow-site-head #Follow-site-categ img{
+      width:50px;
+    height: 50px;
+    
+}
+#review-session{
+    width: 70vw;
+    max-width: fit-content;
+    height: auto;
+    flex-direction: column;
+}
+#review-session .review-session1 img{
+      width: 300px;
+      height:400px ;
+  
+}
+#review-session .review-session2 .para{
+    width: 100%; 
+    font-size: 30px;   
+}
+#review-session .review-session2 button{
+    width: 50%;
+    font-size: 20px;
+   margin: 20px;
+}
+
+#flower-template{
+    width: 70%;
+    height: 400px;
+}
+.flower-offer-sess1{
+    width: 50%;
+    height: 150px;
+ 
+}
+.flower-offer-sess1 img{
+     width: 40%;
+    height: 100px;
+}
+
+#plant-quotes1 p{
+    font-size: 25px;
+}
+
+#flower-template  .flower-offer-sess2{
+    width: 100%;
+    height: 150px;
+   font-style: italic;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+    }
+#flower-template  .flower-offer-sess2 h1{
+font-size: 40px;
+  color: rgb(119, 4, 4);
+  padding: 20px;
+  gap: 20px;
+}
+#flower-template .flower-offer-sess1 img {
+     width: 40%;
+    height: 70px;
+}
+#flower-template .flower-offer-sess2 span{
+     font-size: 40px;
+}
+#flower-template .flower-offer-sess2 button{
+   width: 50%;
+    font-size: 30px;
+    padding: 10px;
+    margin: auto;
+}
+.flower-offer-sess3{
+    width: 50%; 
+     height: 200px;
+     margin-top: 100px;
+     background: 2px solid red;
+    
+}
+#flower-template .flower-offer-sess3 img {
+     width: 40%;
+    height: 70px;
+}
+
+#maintanance-service .service-container{
+    flex-direction: column;
+}
+
+#maintanance-service .maintance-purpose h2{
+   font-size: 2cqb;
+}
+#maintanance-service .service-container .service-box1 img{
+    width: 100px;
+    height: 100px;
+}
+
+#maintanance-service .service-container .service-box1 h1{
+  font-size: 20px;
+}
+#maintanance-service .service-container .service-box1 p{
+   font-size: 18px;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 90%;
+    justify-self: center;
+    height:auto;
+    margin: 20px auto;
+    padding: 20px;
+    gap: 25px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.footerbox1{
+   width: 70%;
+   grid-column: span 4;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+  
+}
+footer div  img{
+        width: 100%;
+        max-width: 150px;
+        height: auto;
+}
+footer .footerbox1 p, 
+    footer div h1 {
+        font-size: 14px;
+    }
+footer div ul {
+        padding: 0;
+        list-style: none;
+    }
+
+    footer div ul li {
+        font-size: 16px;
+    }
+
+    footer .footerbox1 button {
+        width: 70%;
+        font-size: 16px;
+        padding: 10px;
+        margin-left: 0;
+        border-radius: 10px;
+    }
+    #delivery-location-info .location p{
+       font-size: 20px;
+    }
+ }
+   
+ 
+
+ @media (min-width:601px) and (max-width:1024px){
+#main-container{
+    width: 100%;
+    overflow-x: hidden;
+       }
+header{
+  flex-direction: column;
+  padding: 30px;
+}
+.header-box1 h1{
+    font-size: 50px;
+}
+.header-box2{
+    width: 80%;
+}
+.header-box2 input{ 
+   font-size: 32px;
+   margin-bottom: 20px;
+}
+.header-box3 a{
+    font-size: 30px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+
+#image-quotes{
+    font-size: 40px;
+    top: 50%;
+}
+#image-quotes h1 span{
+    color: aqua;
+}
+#image-quotes .login{
+    width: 30%;
+}
+#image-quotes .login p{
+     padding: 10px;
+    font-size: 40px;
+}
+
+#available-cag{
+    font-size: 50px;
+}
+.list1 img{
+    width: 100px;
+    height: 100px;
+}
+.list1 p{
+    font-size: 15px;
+}
+
+
+#potpic{
+    width: 70%;
+    flex-direction: column-reverse;
+    align-items:center;
+    height:auto;
+    margin: auto;
+    overflow: hidden;
+   
+}
+#potpic img{
+    width: 350px;  
+}
+#potpic p {
+    font-size:30px;
+font-style: italic;
+
+}
+#potpic h2{
+    font-size: 30px;
+ 
+}
+#potpic button {
+    width: 60%;
+    font-size: 20px;
+   margin-left: 20%;
+   border-radius: 20px;
+}
+
+
+#palnet-conatiner h1{
+    font-size: 40px;
+    padding-top: 80px;
+}
+.palnet-List{  
+      
+    grid-template-columns: repeat(2,1fr);
+   justify-content: center;
+    
+}
+.palnet-button{
+     width: 200px;
+    height: 350px;
+    margin: 10px;
+    text-align: center;
+}
+.palnet-button img{ 
+      width: 200px;
+    height: 250px;
+}
+.palnet-button p{
+    font-size: 20px;
+}
+.palnet-button button{
+    width:50%;
+    font-size: 20px;
+    padding: 10px;
+  
+}
+
+
+#Follow-site-head h1{
+    font-size: 50px;
+    margin:  10px;
+    padding: 30px;
+}
+#Follow-site-head #Follow-site-categ{
+   gap: 40px; 
+}
+#Follow-site-head #Follow-site-categ img{
+      width:50px;
+    height: 50px;  
+}
+
+
+#plant-quotes1 {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    width: 60%;
+    padding: 10px;
+    margin: 5%;
+}
+#plant-quotes1 p{
+   font-size: 30px;
+}
+
+#review-session{
+    width: 70vw;
+   height: 800px;
+   flex-direction: column;
+   justify-self: center;
+}
+#review-session .review-session1 img{
+      width: 300px;
+      height:400px ;
+  
+}
+#review-session .review-session2 .para{
+    width: 100%; 
+   font-size: 60px;
+    
+}
+#review-session .review-session2 button{
+    width: 50%;
+    font-size: 20px;
+   margin: 20px;
+}
+
+
+
+#flower-template{
+    width: 60%;
+    height: 500px;
+}
+#flower-template .flower-offer-sess1{
+    width: 50%;
+    height: 150px;
+  
+}
+#flower-template .flower-offer-sess1 img{
+     width: 40%;
+    height: 100px;
+}
+#flower-template .flower-offer-sess2{
+    width: 100%;    
+    height: 200px; 
+    padding-top: 20px;
+}
+#flower-template .flower-offer-sess2 h1{
+        width: 100%;
+       color: rgb(119, 4, 4);
+       gap: 20px;
+       font-style: italic;
+       font-size: 60px;
+       
+}
+#flower-template .flower-offer-sess2 span{
+    font-size: 30px;
+}
+#flower-template .flower-offer-sess2 button{
+   width: 50%;
+    font-size: 30px;
+    padding: 10px;
+    margin: auto;
+}
+#flower-template .flower-offer-sess3{
+    width: 50%; 
+     height: 300px;
+     margin-top: 100px;
+    
+}
+#flower-template .flower-offer-sess3 img{
+     width: 40%;
+    height: 100px;
+}
+
+
+#maintanance-service .service-container{  
+    flex-direction: column;  
+}
+
+#maintanance-service .maintance-purpose h2{
+   font-size: 2cqb;
+}
+#maintanance-service .service-container .service-box1 img{
+    width: 100px;
+    height: 100px;
+}
+
+#maintanance-service .service-container .service-box1 h1{
+  font-size: 20px;
+}
+#maintanance-service .service-container .service-box1 p{
+   font-size: 18px;
+}
+
+
+footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+     width: 90%;
+    justify-content: center;
+        height:auto;
+        margin: 20px auto;
+        padding: 20px;
+        gap: 25px;
+        text-align: center;
+        box-sizing: border-box;
+       
+}
+.footerbox1{
+   width: 70%;
+   grid-column: span 4;
+   justify-self: center;
+   align-items: center;
+   margin: auto;
+  
+}
+
+footer div img{
+width: 100%;
+        max-width: 150px;
+        height: auto;
+
+}footer .footerbox1 p{
+    font-size:35px ;
+}
+  footer div h1 {
+        font-size: 30px;
+    }
+footer div ul {
+        padding: 0;
+        list-style: none;
+    }
+
+    footer div ul li {
+        font-size: 20px;
+    }
+
+    footer .footerbox1 button {
+        width: 60%;
+        font-size: 18px;
+        padding: 10px;
+        margin-left: 0;
+        border-radius: 10px;
+    }
+ #delivery-location-info .location p{
+       font-size: 30px;
+    }
+     }
+
+

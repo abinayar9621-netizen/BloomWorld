@@ -1,0 +1,526 @@
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;  
+}
+#main-container{
+    width: 100%;
+    overflow: hidden;
+  
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+    background:linear-gradient(to right,rgb(231, 236, 232),rgb(126, 183, 112)) ;
+}
+.header-box1 h1{
+    font-size: 4.375rem;
+    color: rgb(48, 4, 4);
+    font-style: italic;
+    animation: head;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes head {
+    50%{
+     opacity: 0;
+        transform: translateZ(20px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateZ(10px);       
+    } 
+}
+
+.header-box2{
+   width: 40%;
+   margin: 0px 30px;      
+}
+.header-box2 input{
+   width: 100%;
+   box-sizing: border-box;
+   padding: 10px;
+   font-size: 3.125rem;
+}
+.header-box3 a{
+    font-size: 50px;
+    text-decoration: none;
+    padding: 0px 15px;
+    color: rgb(38, 2, 54);
+    text-decoration: none;
+}
+
+#gardern{
+    position:relative;
+    width: 100%;
+    overflow: hidden;
+}
+#gardern-img{
+    width: 100vw;
+    height: 100vh;
+    margin: 10px;
+    object-fit: cover; 
+}
+#image-quotes{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 5rem;
+    width: 100%;
+    color: rgb(14, 25, 89);
+    top: 30%;
+   
+}
+#image-quotes h1{
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     width: 70%;
+}
+#image-quotes h1 span{
+    padding-left:20px ;
+   color: rgb(147, 68, 44);
+}
+#image-quotes .login  {
+    width:13%;
+    text-align: center;
+     border-radius: 10px;
+     border: 5px solid rgb(4, 17, 20);
+     
+}
+#image-quotes .login p{
+    font-size:3.75rem;
+    padding: 20px;
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 1s;
+    color: beige;
+    animation: login;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes login {
+    50%{
+     opacity: 0;
+        transform: translateZ(20px);
+      
+    }
+    100%{
+        opacity: 1;
+        transform: translateZ(10px);    
+        color: rgb(172, 234, 164);
+    } 
+}
+#image-quotes .login:hover{
+    background-color: rgb(111, 155, 117);
+    color: darkgreen;
+}
+
+
+#available-cag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6.25rem;
+    color: rgb(174, 92, 9);
+}
+ #list{
+       display: flex;
+       gap: 20px;
+       flex-wrap: wrap;
+       justify-content: space-around;
+       align-items: center;
+       padding: 80px 0px;
+}
+.list1 img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.list1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 3.125rem ;   
+}
+
+
+#potpic{
+    display: flex;
+    justify-content: space-between;
+    width:95%;
+    padding: 40px;
+    height: 1200px;
+    margin:30px ;
+    background-color: bisque;
+    border-radius: 20px;
+}
+#potpic img{
+    width: 40vw;
+}
+#potpic p {
+    width:100%;
+    font-size: 7.125rem;
+    color: rgb(4, 46, 31);
+}
+#potpic h2{
+    width:100%;
+    font-size: 3.75rem ;
+    color: rgb(33, 9, 55);
+}
+#potpic button {
+    width:30%;
+    font-size: 50px;
+    background-color: brown;
+    color:blanchedalmond;
+    margin-left: 25%;
+    padding: 20px;
+}
+#potpic button:hover {
+    background-color: bisque;
+    color: brown;
+}
+
+#palnet-conatiner {
+    width: 100%;
+    
+}
+#palnet-conatiner h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6.25rem ;
+    color: rgb(174, 92, 9);
+    margin-bottom: 5%;
+}
+.palnet-List{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 80px; 
+    justify-items: center;
+    align-items: center;
+}
+.palnet-button{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    width: 600px;
+    height: 1000px;
+    background:linear-gradient(to right,rgb(255, 251, 243),rgb(120, 81, 9));
+    border-radius: 10%; 
+    padding: 30px;
+    margin: 50px;
+    object-fit: cover;
+    transition: 2s ease-in-out;
+    border: 2px solid rgb(70, 38, 38);
+}
+.palnet-button:hover{
+    background:linear-gradient(to right,rgb(247, 189, 74),rgb(119, 118, 115));
+    transition: 2s ease-in-out;
+     transform: scale(1.1);
+}
+
+.palnet-button img{ 
+    width: 500px;
+    height: 700px;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 20%;
+    overflow: hidden;
+}
+
+.palnet-button p{
+    color:rgb(37, 21, 1);
+    font-size: 3.75rem ;
+    margin: 30px;
+}
+.palnet-button p:hover{
+    color:rgb(37, 21, 1);
+    font-size:  6.25rem ;
+    color: blanchedalmond;
+}
+
+.palnet-button button{
+    width:60%;
+    font-size: 2.5rem ;
+    padding:20px;
+    border-radius: 10px;
+}
+.palnet-button button:hover{
+    background-color:rgb(209, 203, 158) ;
+}
+
+
+#Follow-site-head{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 50px;
+   
+}
+#Follow-site-head h1{
+     font-size:  6.25rem;
+     color: rgb(2, 31, 31);
+     margin: 80px 10px;
+}
+#Follow-site-head #Follow-site-categ{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction:row;
+   
+}
+#Follow-site-head #Follow-site-categ img{
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+
+#review-session{
+   width:95%;
+    padding: 40px;
+    height: 1200px;
+    margin: 5% 30px  ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(81, 41, 44);
+}
+
+#review-session .review-session1 img{
+  width: 1300px;
+  height:1200px ;
+  margin: 30px;
+  border-radius: 20px;
+}
+#review-session .review-session2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#review-session .review-session2 .para{
+    text-align: center;
+    font-size:  4.75rem;
+    width: 80%;
+    color: bisque;
+    padding: 0px;
+}
+#review-session .review-session2 button{
+    width: 30%;
+    padding: 20px;
+    font-size: 3.125rem;
+    color:  rgb(81, 41, 44);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#review-session .review-session2 button:hover{
+   background-color: rgb(223, 192, 167);  
+}
+
+#plant-quotes1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   padding-top:10% ;
+    padding-bottom:10% ;
+    text-align: center;  
+}
+#plant-quotes1 p{
+    width: 60%;
+    color: rgb(17, 87, 85);
+    font-size: 5rem ;
+}
+
+#flower-template{
+     display: flex;
+     flex-direction: column;
+     justify-self: center;
+     align-self: center;
+     margin:30px ;
+      background:linear-gradient(to right,rgb(226, 206, 196),rgb(229, 133, 65));
+      width: 80%;
+     height: auto;
+     padding: 40px;
+     border: 5px solid rgb(65, 18, 5);    
+}
+
+#flower-template .flower-offer-sess1{
+    display: flex; 
+    width: 50%; 
+     height: 300px;   
+}
+#flower-template .flower-offer-sess1 img{
+     width: 40%;
+    height: 70%;
+    mix-blend-mode: multiply;
+}
+#flower-template .flower-offer-sess2{
+     display: flex;
+     justify-content: center;
+     align-self: center;
+     flex-direction: column;
+     text-align: center;
+    width: 100%;
+    height: 400px;   
+}
+#flower-template .flower-offer-sess2 h1{
+  font-size: 6.25rem;
+  color: rgb(119, 4, 4);
+  padding: 20px;
+  gap: 40px;
+}
+#flower-template .flower-offer-sess2 span{
+    font-style: italic;
+    color: brown;
+    font-size: 6.25rem;
+}
+#flower-template .flower-offer-sess2 button{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 20%;
+    padding: 30px;
+    font-size: 3.125rem ;
+    background-color: brown;
+    color:bisque;
+    border-radius: 50%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#flower-template .flower-offer-sess2 button:hover{
+    color: white;
+}
+#flower-template .flower-offer-sess3{
+    display: flex; 
+    justify-content: end;
+     align-self: flex-end;
+    width: 50%; 
+     height: 300px;
+    
+}
+#flower-template .flower-offer-sess3 img{
+     width: 40%;
+    height: 70%;
+    mix-blend-mode: multiply;
+}
+
+#maintanance-service{
+    padding: 10px;
+   margin: 10%;
+}
+#maintanance-service .maintance-purpose{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+#maintanance-service .maintance-purpose h1{
+     font-size: 4vmax;
+     color: rgb(121, 79, 17);
+
+}
+#maintanance-service .maintance-purpose h2{
+     font-size: 50px;
+     color: rgb(121, 79, 17);
+     padding-bottom: 20px;
+}
+#maintanance-service .service-container{
+    display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   text-align: center;
+   padding-top: 4%;
+   padding-bottom: 5%;
+
+}
+#maintanance-service .service-box1 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: blueviolet;
+}
+#maintanance-service div h1{
+    font-size: 3.75rem;
+
+}
+#maintanance-service div p{
+    font-size: 2.75rem;
+}
+footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+   justify-content: space-around;
+    background-color: rgb(11, 54, 29);
+    border: 10px dotted rgb(116, 114, 71);
+    height: auto;
+    margin: 5px;
+    padding: 40px;
+}
+footer .footerbox1  img{
+   mix-blend-mode:multiply;
+     
+}
+footer .footerbox1 p{
+    font-size: 5rem ;
+    color: rgb(240, 214, 191);
+}
+footer .footerbox1 button{
+    
+    width: 50%;
+    font-size: 40px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(12, 41, 6);
+    padding: 30px;
+    border-radius: 40%;
+    border: 2px solid rgb(28, 206, 28);
+    margin-left: 20px;
+}
+footer .footerbox1 button:hover{
+    background-color: white;
+    color: rgb(3, 25, 3);
+}
+footer div h1{
+    font-size: 5rem;
+    color: rgb(208, 206, 184);
+   
+}
+footer div ul li{
+    text-decoration: none;
+    color: khaki;
+    font-size: 3.125rem;
+}
+footer div ul li:hover{
+    color: white;
+}
+#delivery-location-info{
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    width: 80%;
+    margin:10px;
+    padding: 10px;
+}
+#delivery-location-info h1{
+   
+    font-size: 3.75rem;
+    text-align: center;
+}
+#delivery-location-info .location{
+  
+  height: auto;
+  margin: 20px;
+    
+}
+#delivery-location-info .location p{
+    font-size: 2.75rem;
+}
+
+
+ 
